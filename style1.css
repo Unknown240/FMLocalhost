@@ -1,0 +1,127 @@
+/* Gaya umum */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+/* Tabel */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #f5f5f5;
+}
+
+/* Tombol */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: #0069d9;
+}
+
+/* Link folder */
+.folder-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .folder-link:hover {
+    text-decoration: none;
+    background-color: #0069d9;
+  }
+  
+
+/* Pesan */
+.error-msg {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.empty-folder {
+  color: #999;
+}
+
+/* Tombol Kembali */
+.back-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #6c757d;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.back-btn:hover {
+  background-color: #5a6268;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  /* CSS untuk tabel */
+.file-list-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .file-list-table th,
+  .file-list-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  /* CSS untuk media query */
+  @media (max-width: 768px) {
+    .file-list-table th,
+    .file-list-table td {
+      padding: 5px;
+      font-size: 14px;
+    }
+  }
+  
+  
